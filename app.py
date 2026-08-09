@@ -12,12 +12,12 @@ num_loci = st.number_input("Analiz Edilecek Toplam Lokus Sayısı", min_value=1,
 results = []
 
 formula_options = [
-    "Type-I: 4 Allel (Ad1+Ad2 / Ad1+Ad2+Ar1+Ar2)",
-    "Type-I: 3 Allel - 1 Verici, 2 Alıcı (Ad / Ad+Ar1+Ar2)",
-    "Type-I: 3 Allel - 2 Verici, 1 Alıcı (Ad1+Ad2 / Ad1+Ad2+Ar)",
-    "Type-I: 2 Allel (Ad / Ad+Ar)",
-    "Type-II: Alıcı Formülü (1 - 2*Ar / Ar+A*)",
-    "Type-II: Verici Formülü (2*Ad / Ad+A*)",
+    "2-2-4 Type-I: 4 Allel (Ad1+Ad2 / Ad1+Ad2+Ar1+Ar2)",
+    "1-2-3 Type-I: 3 Allel - 1 Verici, 2 Alıcı (Ad / Ad+Ar1+Ar2)",
+    "2-1-3 Type-I: 3 Allel - 2 Verici, 1 Alıcı (Ad1+Ad2 / Ad1+Ad2+Ar)",
+    "1-1-2 ve 2-2-3 Type-I: 2 Allel (Ad / Ad+Ar)",
+    "1-2-2 Type-II: Alıcı Formülü (1 - 2*Ar / Ar+A*)",
+    "2-1-2 Type-II: Verici Formülü (2*Ad / Ad+A*)",
     "Manuel Sıfır (Şüpheli / Uyumsuz Profil)"
 ]
 
