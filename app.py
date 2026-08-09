@@ -18,7 +18,7 @@ formula_options = [
     "1-1-2 ve 2-2-3 Type-I: 2 Allel (Ad / Ad+Ar)",
     "1-2-2 Type-II: Alıcı Formülü (1 - 2*Ar / Ar+A*)",
     "2-1-2 Type-II: Verici Formülü (2*Ad / Ad+A*)",
-    "Manuel Sıfır (Şüpheli / Uyumsuz Profil)"
+    "Manuel Sıfır (Uyumsuz Durum)"
 ]
 
 for i in range(int(num_loci)):
