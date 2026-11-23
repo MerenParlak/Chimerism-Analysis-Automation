@@ -6,7 +6,7 @@ A lightweight web application built with Python and Streamlit to automate donor 
 
 ## Why I Built This
 
-During my internship at a clinical genetics diagnostic laboratory, I noticed that post-transplant chimerism calculations were performed manually using peak area (integral) values from capillary electrophoresis (**3500 Genetic Analyzer**). Doing this across multiple STR loci for every patient was repetitive, time-consuming, and open to simple arithmetic mistakes. 
+During my internship at a clinical genetics diagnostic laboratory, I noticed that post-transplant chimerism calculations were performed manually using peak area (integral) values from capillary electrophoresis (**3500 Genetic Analyzer**). Doing this across multiple STR loci for every patient was repetitive, time-consuming, and open to simple arithmetic mistakes.The user interface is in Turkish, as this tool was developed during my internship in Turkey specifically for daily use by Turkish-speaking laboratory personnel. 
 
 I built this tool to automate those calculations, speed up the routine workflow, and eliminate manual calculation errors.
 
